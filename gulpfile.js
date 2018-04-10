@@ -34,4 +34,8 @@ gulp.task('browserify', buildSource);
 gulp.task('copy', copy)
 
 gulp.task('build', build);
+gulp.task('dev', gulp.series(build, function watch() {
+  gulp.watch(['src/**/*'], build);
+}));
+
 gulp.task('default', build);
