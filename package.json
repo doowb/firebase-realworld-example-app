@@ -4,15 +4,22 @@
   "version": "0.1.0",
   "homepage": "https://github.com/doowb/firebase-realworld-example-app",
   "author": "Brian Woodward (https://doowb.com)",
+  "contributors": [
+    "Alon Bukai (http://www.alonbukai.com)",
+    "Eric Simons (https://twitter.com/ericsimons40)",
+    "Esakki Raj (http://esakkiraj.github.io)",
+    "Sandeesh (https://github.com/SandeeshS)",
+    "Udo Kramer (https://instagram.com/optikfluffel)"
+  ],
   "repository": "doowb/firebase-realworld-example-app",
   "bugs": {
     "url": "https://github.com/doowb/firebase-realworld-example-app/issues"
   },
   "license": "MIT",
   "files": [
-    "LICENSE",
-    "README.md"
+    "index.js"
   ],
+  "main": "index.js",
   "engines": {
     "node": ">=4"
   },
