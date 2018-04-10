@@ -1,0 +1,28 @@
+{
+  "name": "firebase-realworld-starter-kit",
+  "description": "Fullstack Firebase Realworld example application.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/firebase-realworld-starter-kit",
+  "author": "Brian Woodward (https://doowb.com)",
+  "repository": "doowb/firebase-realworld-starter-kit",
+  "bugs": {
+    "url": "https://github.com/doowb/firebase-realworld-starter-kit/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "firebase",
+    "kit",
+    "realworld",
+    "starter"
+  ]
+}
